@@ -1,0 +1,84 @@
+let employees=`
+
+[{
+    "Unique ID": 1,
+    "first_name": "Elka",
+    "last_name": "Tattershaw",
+    "email": "etattershaw0@examiner.com",
+    "job_title": "GIS Technical Architect",
+    "salary": 1294
+},
+{
+    "Unique ID": 2,
+    "first_name": "Lulita",
+    "last_name": "MacArthur",
+    "email": "lmacarthur1@icio.us",
+    "job_title": "Technical Writer",
+    "salary": 1428
+},
+{
+    "Unique ID": 3,
+    "first_name": "Burnaby",
+    "last_name": "Jelf",
+    "email": "bjelf2@acquirethisname.com",
+    "job_title": "Internal Auditor",
+    "salary": 1562
+},
+{
+    "Unique ID": 4,
+    "first_name": "Antonin",
+    "last_name": "Szymanowicz",
+    "email": "aszymanowicz3@cloudflare.com",
+    "job_title": "Senior Sales Associate",
+    "salary": 1363
+},
+{
+    "Unique ID": 5,
+    "first_name": "Harrietta",
+    "last_name": "Ashtonhurst",
+    "email": "hashtonhurst4@gov.uk",
+    "job_title": "Assistant Manager",
+    "salary": 1352
+},
+{
+    "Unique ID": 6,
+    "first_name": "Whitaker",
+    "last_name": "Bedo",
+    "email": "wbedo5@123-reg.co.uk",
+    "job_title": "VP Quality Control",
+    "salary": 1524
+},
+{
+    "Unique ID": 7,
+    "first_name": "Griffith",
+    "last_name": "Leisk",
+    "email": "gleisk6@census.gov",
+    "job_title": "Paralegal",
+    "salary": 1359
+},
+{
+    "Unique ID": 8,
+    "first_name": "Charyl",
+    "last_name": "Wimmer",
+    "email": "cwimmer7@bizjournals.com",
+    "job_title": "Account Coordinator",
+    "salary": 1385
+},
+{
+    "Unique ID": 9,
+    "first_name": "Christal",
+    "last_name": "Kerfut",
+    "email": "ckerfut8@fotki.com",
+    "job_title": "Desktop Support Technician",
+    "salary": 1517
+},
+{
+    "Unique ID": 10,
+    "first_name": "Barbra",
+    "last_name": "Bottom",
+    "email": "bbottom9@ovh.net",
+    "job_title": "Marketing Assistant",
+    "salary": 1552
+}
+]
+`
