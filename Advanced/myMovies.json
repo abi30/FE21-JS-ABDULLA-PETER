@@ -1,0 +1,62 @@
+let movies=`
+[{
+    "title": "Madonna: Truth or Dare",
+    "director": "Stavro Chessell",
+    "watched": true,
+    "image": "http://dummyimage.com/182x232.png/ff4444/5fa2dd"
+
+},
+{
+    "title": "Return from Witch Mountain",
+    "director": "Siffre Barter",
+    "watched": false,
+    "image": "http://dummyimage.com/128x232.png/ff4444/ffffff"
+},
+{
+    "title": "Freddy vs. Jason",
+    "director": "Bethina Spataro",
+    "watched": false,
+    "image": "http://dummyimage.com/216x155.png/cc0000/ffffff"
+},
+{
+    "title": "Oxy-Morons",
+    "director": "Dexter Benning",
+    "watched": true,
+    "image": "http://dummyimage.com/109x239.bmp/cc0000/ffffff"
+},
+{
+    "title": "Jungle Fighters",
+    "director": "Shanta Bernet",
+    "watched": false,
+    "image": "http://dummyimage.com/207x104.bmp/cc0000/ffffff"
+},
+{
+    "title": "Kon-Tiki",
+    "director": "Robbi Carne",
+    "watched": true,
+    "image": "http://dummyimage.com/100x103.png/5fa2dd/ffffff"
+},
+{
+    "title": "Native Son",
+    "director": "Livvyy Eakens",
+    "watched": true,
+    "image": "http://dummyimage.com/152x130.png/dddddd/000000"
+},
+{
+    "title": "Life of David Gale, The",
+    "director": "Ange O'Sesnane",
+    "watched": true,
+    "image": "http://dummyimage.com/181x109.png/ff4444/ffffff"
+},
+{
+    "title": "Hellsing Ultimate OVA Series",
+    "director": "Gilles Jeannequin",
+    "watched": false,
+    "image": "http://dummyimage.com/216x148.jpg/cc0000/ffffff"
+},
+{
+    "title": "Kongo",
+    "director": "Leonid Pladen",
+    "watched": true,
+    "image": "http://dummyimage.com/157x235.bmp/5fa2dd/ffffff"
+}]`

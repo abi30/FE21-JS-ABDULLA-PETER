@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>JSON example</title>
+  <style>
+    th, td, p, input {
+        font:14px Verdana;
+    }
+    table, th, td 
+    {
+        border: solid 1px rgb(182, 110, 110);
+        border-collapse: collapse;
+        padding: 2px 3px;
+        text-align: center;
+    }
+    th {
+        font-weight:bold;
+    }
+</style>
+</head>
+<body>
+    <input type="button" onclick="CreateTableFromJSON()" value="Create LIST For Movies"/>
+    <div id="showData"></div>
+</body>
+<script src="myMovies.json"></script>
+<script>
+  var allData = JSON.parse(movies);
+    function CreateTableFromJSON() {
+        var value=document.getElementById('showData');
+        
+        for (let i = 0 ; i < allData.length; i++) {
+         
+
+  value.innerHTML += `<div class="showData"><p> Movie:<b>${allData[i].title}</b> <br>and Director from this Film <b>${allData[i].director}</b></p></div>`;
+
+if(allData[i].watched==true){
+
+    var value= document.getElementsByClassName('showData')[i];
+    value.innerHTML += `<p class="s"> watched :${allData[i].watched}`;
+    var para= document.getElementsByClassName("s")[i];
+    para.style.color += "green";
+   
+
+}
+if(allData[i].watched==false){
+
+    var value= document.getElementsByClassName('showData')[i];
+    value.innerHTML += `<p class="s">watched :${allData[i].watched}`;
+    var para= document.getElementsByClassName("s")[i];
+    para.style.color += "red";
+
+}
+
+value.innerHTML +=`<img src="${allData[i].image}" alt = "hello sorry doesn't work">`;
+
+}
+     
+  }
+</script>
+
+
+
+</html>
